@@ -101,3 +101,76 @@ Metrostroi.AddANSPAnnouncer("SBL 2021",AnnouncerRecords, AnnouncerData)
 Metrostroi.SetRRIAnnouncer(AnnouncerRecords, AnnouncerData)
 Metrostroi.AddSarmatUPOAnnouncer("SBL 2021", AnnouncerRecords, AnnouncerDataLQ)
 Metrostroi.SetUPOAnnouncer(AnnouncerRecords, {AnnouncerDataLQ})
+
+
+Metrostroi.StationConfigurations = {
+
+
+	[127] =
+	{
+		names = {"Лісова","Lisova"},
+		positions = {
+			{Vector(-2651.232222, -14664.232444, -2573.245555),Angle(0.000000, 270.043999, 0.000000)},
+		}
+	},	
+	oborot_lisova =
+	{
+		names = {"ПТО","PTO"},
+		positions = {
+			{Vector(14611.232877, -2627.012432, -2570),Angle(0.000000, 270.822422, 0.000000)},
+		}
+	},		
+	[126] =
+	{
+		names = {"Чернігівська","Chernihivska"},
+		positions = {
+			{Vector(-14092.470703, -1018.464355, -3525.028320),Angle(0.000000, 0.000000, 0.000000)},
+		}
+	},
+	[125] =
+	{
+		names = {"Дарниця","Darnytsia"},
+		positions = {
+			{Vector(14578.466309, -4309.025879, -3687.031250),Angle(0.000000, 180.608124, 0.000000)},
+		}
+	},
+	[124] =
+	{
+		names = {"Лівобережна","Livoberezhna"},
+		positions = {
+			{Vector(1198, 5908, -5471),Angle(0.000000, 89.610161, 0.000000)},
+		}
+	},
+	[123] =
+	{
+		names = {"Гідропарк","Hidropark"},
+		positions = {
+			{Vector(-1717.916016, -10473.455200, -6440.031250),Angle(0.000000, 89.863411, 0.000000)},
+		}
+	},
+	[122] =
+	{
+		names = {"Дніпро","Dnipro"},
+		positions = {
+			{Vector(-6340.074219, -7300.051758, -8540.604004),Angle(0.000000, 0.000000, 0.000000)},
+		}
+	},
+	[121] =
+	{
+		names = {"Арсенальна","Arsenalna"},
+		positions = {
+			{Vector(10128.584961, 14292.788818, -9850.313965),Angle(0.000000, 179.994919, 0.000000)},
+		}
+
+	},
+	oborot_arsenalna =
+	{
+		names = {"Оборот Арсенальна","Oborot Arsenalna"},
+		positions = {
+			{Vector(-3624.313477, 14387.185547, -9857.012596),Angle(0.000000, 0.000000, 0.000000)},
+		}
+
+	},
+}
+
+
