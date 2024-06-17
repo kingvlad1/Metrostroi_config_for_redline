@@ -1,7 +1,7 @@
 local Map = game.GetMap():lower() or ""
-if Map:find("gm_redline_vdar") then
-    Metrostroi.PlatformMap = "gm_redline_vdar"
-    Metrostroi.CurrentMap = "gm_redline_vdar"
+if Map:find("gm_redline") then
+    Metrostroi.PlatformMap = "gm_redline"
+    Metrostroi.CurrentMap = "gm_redline"
 else
     return
 end
